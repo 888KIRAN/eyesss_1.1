@@ -11,5 +11,4 @@ This C program sends an HTTP request to a specified URL and displays the respons
 1. **Compile**:
    ```bash
    git clone https://github.com/888KIRAN/http_display.git
-   sudo apt-get install libcurl4-openssl-dev
    gcc -o http_display http_display.c -lcurl
