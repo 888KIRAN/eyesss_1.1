@@ -14,5 +14,7 @@ This C program sends an HTTP request to a specified URL and displays the respons
 
 
 ##Run
+
 ./http_display <URL> [-s] [-n]
+
 ./http_display https://example.com -s
