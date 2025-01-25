@@ -10,5 +10,6 @@ This C program sends an HTTP request to a specified URL and displays the respons
 ## Download:
 1. **Compile**:
    ```bash
-   git clone https://github.com/888KIRAN/http_display.git
-   gcc -o http_display http_display.c -lcurl
+   git clone https://github.com/888KIRAN/eyesss_1.1
+   gcc eyesss.c -o eyesss -lcurl
+
