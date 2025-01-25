@@ -8,9 +8,12 @@ This C program sends an HTTP request to a specified URL and displays the respons
 - **`-s`**: Suppresses content output (only headers are shown).
 
 ## Usage:
-1. ** gcc -o http_display http_display.c -lcurl**:
+1. **Compile**:
+   ```bash
+   gcc -o http_display http_display.c -lcurl
 
 ##Run:
+1. **Compile**:
 ```bash
 ./http_display <URL> [-s] [-n]
 ./http_display https://example.com -s
