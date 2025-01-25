@@ -13,11 +13,11 @@ This C program sends an HTTP request to a specified URL and displays the respons
    gcc -o http_display http_display.c -lcurl
 
 ##Run:
-1. **Compile**:
-```bash
-./http_display <URL> [-s] [-n]
-./http_display https://example.com -s
+**`./http_display <URL> [-s] [-n]`**
+**`./http_display https://example.com -s`**
 
-##Download:
-'''bash
-git clone https://github.com/888KIRAN/http_display.git
+**`git clone https://github.com/888KIRAN/http_display.git`**
+**`sudo apt-get install libcurl4-openssl-dev`**
+
+ 
+
