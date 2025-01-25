@@ -7,18 +7,9 @@ This C program sends an HTTP request to a specified URL and displays the respons
 - **`-n`**: Displays HTTP headers.
 - **`-s`**: Suppresses content output (only headers are shown).
 
-## Usage:
-**` gcc -o http_display http_display.c -lcurl`**
-##Run:
-**`./http_display <URL> [-s] [-n]`**
-**`./http_display https://example.com -s`**
-
-
-## Usage:
+## Download:
 1. **Compile**:
    ```bash
-git clone https://github.com/888KIRAN/http_display.git
-sudo apt-get install libcurl4-openssl-dev
-
- 
-
+   git clone https://github.com/888KIRAN/http_display.git
+   sudo apt-get install libcurl4-openssl-dev
+   gcc -o http_display http_display.c -lcurl
